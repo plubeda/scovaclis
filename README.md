@@ -1,4 +1,4 @@
-# A Spanish Terminology for Medical Specialties
+# Spanish Core Vocabulary About Clinical Specialties
 
 This project is structured as follows:
 
