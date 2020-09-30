@@ -1,4 +1,8 @@
-## MLP
+#
+To perform the experiments, we used 75% of the case reports for training 475 (41,159 documents) and the rest for blind testing (13,720 documents). You must consider that it is a multi-label classification, so each document can belong to more than one specialty.
+
+## Classifier:  MULTILAYER PERCEPTRON
+## Word Representation: TFIDF
 
 | Specialty | Precision (%) | Recall (%) | F1 (%) | # docs. |
 | --- | --- | --- | --- | --- |
@@ -56,7 +60,8 @@
 | macro avg | 56.3 | 33.4 | 40.0 | 39293 |
 | weighted avg | 72.6 | 56.3 | 62.9 | 39293 |
 
-## Decision tree
+## Classifier:  DECISION TREE
+## Word Representation: TFIDF
 
 | Specialty | Precision (%) | Recall (%) | F1 (%) | # docs. |
 | --- | --- | --- | --- | --- |
@@ -114,7 +119,8 @@
 | macro avg | 28.1 | 19.7 | 22.7 | 39293 |
 | weighted avg | 46.5 | 38.1 | 41.6 | 39293 |
 
-## Random Forest
+## Classifier:  RANDOM FOREST
+## Word Representation: TFIDF
 
 | Specialty | Precision (%) | Recall (%) | F1 (%) | # docs. |
 | --- | --- | --- | --- | --- |
@@ -172,7 +178,8 @@
 | macro avg | 48.5 | 11.4 | 17.1 | 39293 |
 | weighted avg | 75.7 | 25.1 | 35.7 | 39293 |
 
-## KNeighbors
+## Classifier:  KNEIGHBORS
+## Word Representation: TFIDF
 
 | Specialty | Precision (%) | Recall (%) | F1 (%) | # docs. |
 | --- | --- | --- | --- | --- |
@@ -229,3 +236,4 @@
 | micro avg | 63.3 | 39.0 | 48.2 | 39293 |
 | macro avg | 53.8 | 18.5 | 24.6 | 39293 |
 | weighted avg | 66.3 | 39.0 | 45.0 | 39293 |
+
