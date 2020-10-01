@@ -56,9 +56,11 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | Specialties surgical | 0.0 | 0.0 | 0.0 | 5 |
 | Sports medicine | 90.9 | 34.5 | 50.0 | 29 |
 | Tropical medicine | 0.0 | 0.0 | 0.0 | 22 |
+| Venereology | 83.7 | 71.0 | 76.9 | 449 |
 | micro avg | 75.1 | 53.3 | 59.3 | 39293 |
 | macro avg | 56.3 | 33.4 | 40.0 | 39293 |
 | weighted avg | 72.6 | 56.3 | 62.9 | 39293 |
+
 
 ## Classifier:  DECISION TREE
 ### Word Representation: TFIDF
@@ -115,6 +117,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | Specialties surgical | 0.0 | 0.0 | 0.0 | 5 |
 | Sports medicine | 85.7 | 20.7 | 33.3 | 29 |
 | Tropical medicine | 0.0 | 0.0 | 0.0 | 22 |
+| Venereology | 71.6 | 51.7 | 60.0 | 449 |
 | micro avg | 47.9 | 38.1 | 42.4 | 39293 |
 | macro avg | 28.1 | 19.7 | 22.7 | 39293 |
 | weighted avg | 46.5 | 38.1 | 41.6 | 39293 |
@@ -174,6 +177,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | Specialties surgical | 0.0 | 0.0 | 0.0 | 5 |
 | Sports medicine | 0.0 | 0.0 | 0.0 | 29 |
 | Tropical medicine | 0.0 | 0.0 | 0.0 | 22 |
+| Venereology | 86.2 | 41.9 | 56.4 | 449 |
 | micro avg | 71.7 | 25.1 | 38.4 | 39293 |
 | macro avg | 48.5 | 11.4 | 17.1 | 39293 |
 | weighted avg | 75.7 | 25.1 | 35.7 | 39293 |
@@ -233,6 +237,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | Specialties surgical | 0.0 | 0.0 | 0.0 | 5 |
 | Sports medicine | 85.7 | 20.7 | 33.3 | 29 |
 | Tropical medicine | 0.0 | 0.0 | 0.0 | 22 |
+| Venereology | 84.6 | 45.2 | 58.9 | 449 |
 | micro avg | 63.3 | 39.0 | 48.2 | 39293 |
 | macro avg | 53.8 | 18.5 | 24.6 | 39293 |
 | weighted avg | 66.3 | 39.0 | 45.0 | 39293 |
@@ -292,6 +297,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | Specialties surgical | 0.0 | 0.0 | 0.0 | 5 |
 | Sports medicine | 0.0 | 0.0 | 0.0 | 29 |
 | Tropical medicine | 0.0 | 0.0 | 0.0 | 22 |
+| Venereology | 45.6 | 38.5 | 41.8 | 449 |
 | micro avg | 46.2 | 43.5 | 44.8 | 39293 |
 | macro avg | 23.4 | 21.7 | 22.5 | 39293 |
 | weighted avg | 45.3 | 43.5 | 44.3 | 39293 |
@@ -351,6 +357,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | Specialties surgical | 0.0 | 0.0 | 0.0 | 5 |
 | Sports medicine | 0.0 | 0.0 | 0.0 | 29 |
 | Tropical medicine | 0.0 | 0.0 | 0.0 | 22 |
+| Venereology | 88.7 | 31.6 | 46.6 | 449 |
 | micro avg | 70.0 | 17.5 | 28.7 | 39293 |
 | macro avg | 42.4 | 7.1 | 11.4 | 39293 |
 | weighted avg | 71.8 | 17.5 | 26.4 | 39293 |
@@ -410,6 +417,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | Specialties surgical | 0.0 | 0.0 | 0.0 | 5 |
 | Sports medicine | 100.0 | 27.6 | 43.2 | 29 |
 | Tropical medicine | 0.0 | 0.0 | 0.0 | 22 |
+| Venereology | 86.1 | 53.7 | 66.1 | 449 |
 | micro avg | 69.3 | 42.6 | 52.7 | 39293 |
 | macro avg | 54.8 | 22.1 | 29.1 | 39293 |
 | weighted avg | 67.3 | 42.6 | 50.0 | 39293 |
@@ -469,6 +477,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | Specialties surgical | 0.0 | 0.0 | 0.0 | 5 |
 | Sports medicine | 100.0 | 37.9 | 55.0 | 29 |
 | Tropical medicine | 0.0 | 0.0 | 0.0 | 22 |
+| Venereology | 85.0 | 69.5 | 76.5 | 449 |
 | micro avg | 74.7 | 57.4 | 64.9 | 39293 |
 | macro avg | 56.3 | 34.9 | 41.5 | 39293 |
 | weighted avg | 72.5 | 57.4 | 63.5 | 39293 |
@@ -528,6 +537,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | Specialties surgical | 0.0 | 0.0 | 0.0 | 5 |
 | Sports medicine | 7.4 | 6.9 | 7.1 | 29 |
 | Tropical medicine | 5.0 | 4.5 | 4.8 | 22 |
+| Venereology | 44.9 | 39.2 | 41.9 | 449 |
 | micro avg | 42.6 | 43.1 | 42.8 | 39293 |
 | macro avg | 22.3 | 22.6 | 22.4 | 39293 |
 | weighted avg | 42.7 | 43.1 | 42.9 | 39293 |
@@ -588,6 +598,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | Specialties surgical | 0.0 | 0.0 | 0.0 | 5 |
 | Sports medicine | 0.0 | 0.0 | 0.0 | 29 |
 | Tropical medicine | 0.0 | 0.0 | 0.0 | 22 |
+| Venereology | 78.4 | 23.4 | 36.0 | 449 |
 | micro avg | 76.0 | 32.6 | 45.6 | 39293 |
 | macro avg | 42.3 | 13.6 | 18.5 | 39293 |
 | weighted avg | 67.2 | 32.6 | 41.4 | 39293 |
@@ -648,6 +659,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | Specialties surgical | 0.0 | 0.0 | 0.0 | 5 |
 | Sports medicine | 100.0 | 20.7 | 34.3 | 29 |
 | Tropical medicine | 0.0 | 0.0 | 0.0 | 22 |
+| Venereology | 84.0 | 52.6 | 64.7 | 449 |
 | micro avg | 69.4 | 42.1 | 52.4 | 39293 |
 | macro avg | 50.0 | 22.4 | 29.0 | 39293 |
 | weighted avg | 65.1 | 42.1 | 49.8 | 39293 |
@@ -707,6 +719,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | Specialties surgical | 0.0 | 0.0 | 0.0 | 5 |
 | Sports medicine | 90.9 | 34.5 | 50.0 | 29 |
 | Tropical medicine | 0.0 | 0.0 | 0.0 | 22 |
+| Venereology | 82.1 | 55.0 | 65.9 | 449 |
 | micro avg | 75.8 | 43.5 | 55.3 | 39293 |
 | macro avg | 50.9 | 27.9 | 33.8 | 39293 |
 | weighted avg | 68.3 | 43.5 | 50.6 | 39293 |
@@ -767,6 +780,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | Specialties surgical | 7.7 | 20.0 | 11.1 | 5 |
 | Sports medicine | 7.4 | 6.9 | 7.1 | 29 |
 | Tropical medicine | 0.0 | 0.0 | 0.0 | 22 |
+| Venereology | 47.9 | 41.4 | 44.4 | 449 |
 | micro avg | 46.4 | 43.9 | 45.1 | 39293 |
 | macro avg | 24.8 | 22.8 | 23.6 | 39293 |
 | weighted avg | 45.6 | 43.9 | 44.7 | 39293 |
@@ -826,6 +840,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | Specialties surgical | 0.0 | 0.0 | 0.0 | 5 |
 | Sports medicine | 0.0 | 0.0 | 0.0 | 29 |
 | Tropical medicine | 0.0 | 0.0 | 0.0 | 22 |
+| Venereology | 87.9 | 24.3 | 38.0 | 449 |
 | micro avg | 70.3 | 18.9 | 30.6 | 39293 |
 | macro avg | 44.4 | 7.8 | 12.4 | 39293 |
 | weighted avg | 73.4 | 18.9 | 28.1 | 39293 |
@@ -885,6 +900,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | Specialties surgical | 0.0 | 0.0 | 0.0 | 5 |
 | Sports medicine | 100.0 | 27.6 | 43.2 | 29 |
 | Tropical medicine | 0.0 | 0.0 | 0.0 | 22 |
+| Venereology | 85.9 | 51.7 | 64.5 | 449 |
 | micro avg | 68.9 | 42.7 | 52.7 | 39293 |
 | macro avg | 53.1 | 22.0 | 28.9 | 39293 |
 | weighted avg | 66.9 | 42.7 | 49.9 | 39293 |
@@ -944,6 +960,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | Specialties surgical | 0.0 | 0.0 | 0.0 | 5 |
 | Sports medicine | 100.0 | 37.9 | 55.0 | 29 |
 | Tropical medicine | 0.0 | 0.0 | 0.0 | 22 |
+| Venereology | 84.0 | 69.9 | 76.3 | 449 |
 | micro avg | 77.5 | 57.7 | 65.2 | 39293 |
 | macro avg | 56.3 | 35.3 | 41.8 | 39293 |
 | weighted avg | 72.2 | 57.7 | 63.6 | 39293 |
@@ -1003,6 +1020,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | Specialties surgical | 7.7 | 20.0 | 11.1 | 5 |
 | Sports medicine | 10.3 | 10.3 | 10.3 | 29 |
 | Tropical medicine | 4.8 | 4.5 | 4.7 | 22 |
+| Venereology | 50.8 | 41.0 | 45.4 | 449 |
 | micro avg | 43.1 | 43.1 | 43.1 | 39293 |
 | macro avg | 22.5 | 22.4 | 22.4 | 39293 |
 | weighted avg | 43.3 | 43.1 | 43.2 | 39293 |
@@ -1062,6 +1080,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | Specialties surgical | 0.0 | 0.0 | 0.0 | 5 |
 | Sports medicine | 0.0 | 0.0 | 0.0 | 29 |
 | Tropical medicine | 0.0 | 0.0 | 0.0 | 22 |
+| Venereology | 83.2 | 26.5 | 40.2 | 449 |
 | micro avg | 76.8 | 32.6 | 45.8 | 39293 |
 | macro avg | 41.1 | 13.7 | 18.6 | 39293 |
 | weighted avg | 67.0 | 32.6 | 41.5 | 39293 |
@@ -1121,6 +1140,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | Specialties surgical | 0.0 | 0.0 | 0.0 | 5 |
 | Sports medicine | 100.0 | 20.7 | 34.3 | 29 |
 | Tropical medicine | 0.0 | 0.0 | 0.0 | 22 |
+| Venereology | 82.6 | 52.8 | 64.4 | 449 |
 | micro avg | 68.9 | 42.3 | 52.6 | 39293 |
 | macro avg | 51.6 | 22.6 | 29.3 | 39293 |
 | weighted avg | 65.4 | 42.3 | 50.1 | 39293 |
@@ -1180,6 +1200,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | Specialties surgical | 0.0 | 0.0 | 0.0 | 5 |
 | Sports medicine | 90.9 | 34.5 | 50.0 | 29 |
 | Tropical medicine | 0.0 | 0.0 | 0.0 | 22 |
+| Venereology | 82.5 | 57.9 | 68.1 | 449 |
 | micro avg | 75.6 | 43.5 | 55.4 | 39293 |
 | macro avg | 53.7 | 27.4 | 33.4 | 39293 |
 | weighted avg | 69.1 | 43.5 | 50.6 | 39293 |
