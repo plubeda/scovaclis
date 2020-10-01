@@ -1,3 +1,5 @@
+In order to clarify the results, we detail below the parameters used by each classification algorithm.
+
 ## Multilayer Perceptron
 
 Params:
