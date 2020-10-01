@@ -120,6 +120,9 @@ Here we show for each specialty the false positives, false negatives, true posit
 - False negative: 591
 - True positive: 52
 
+### Military medicine
+- True negative: 13720
+
 ### Neurology
 - True negative: 10225
 - False positive: 339
