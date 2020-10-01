@@ -1,67 +1,6 @@
 #
 To perform the experiments, we used 75% of the case reports for training 475 (41,159 documents) and the rest for blind testing (13,720 documents). You must consider that it is a multi-label classification, so each document can belong to more than one specialty.
 
-## Classifier:  MULTILAYER PERCEPTRON
-### Word Representation: TFIDF
-
-| Specialty | Precision (%) | Recall (%) | F1 (%) | # docs. |
-| --- | --- | --- | --- | --- |
-| Immunochemistry | 31.7 | 8.5 | 13.4 | 224 |
-| Allergy and immunology | 0.0 | 0.0 | 0.0 | 7 |
-| Anesthesiology | 34.6 | 25.3 | 29.2 | 178 |
-| Bariatric medicine | 83.3 | 26.3 | 40.0 | 19 |
-| Dermatology | 86.9 | 68.7 | 76.7 | 1776 |
-| Forensic medicine | 0.0 | 0.0 | 0.0 | 1 |
-| Family practice | 87.9 | 28.4 | 43.0 | 102 |
-| General practice | 0.0 | 0.0 | 0.0 | 1 |
-| Genetics medical | 78.6 | 65.6 | 71.5 | 1101 |
-| Geriatrics | 48.9 | 38.4 | 43.0 | 3223 |
-| Cardiology | 88.7 | 76.6 | 82.2 | 2817 |
-| Endocrinology | 88.2 | 66.4 | 75.8 | 1268 |
-| Gastroenterology | 86.7 | 75.7 | 80.8 | 1764 |
-| Hematology | 88.6 | 64.0 | 74.3 | 1109 |
-| Infectious disease medicine | 11.1 | 1.5 | 2.6 | 68 |
-| Medical oncology | 91.5 | 80.9 | 85.8 | 4035 |
-| Nephrology | 84.0 | 71.6 | 77.3 | 953 |
-| Pulmonary medicine | 15.4 | 3.2 | 5.3 | 125 |
-| Rheumatology | 83.7 | 47.5 | 60.6 | 238 |
-| Internal medicine | 24.4 | 9.0 | 13.2 | 643 |
-| Military medicine | 0.0 | 0.0 | 0.0 | 0 |
-| Neurology | 89.4 | 74.3 | 81.1 | 3156 |
-| Palliative medicine | 100.0 | 4.2 | 8.0 | 24 |
-| Pathology | 55.2 | 45.6 | 49.9 | 3836 |
-| Neonatology | 66.1 | 47.0 | 54.9 | 534 |
-| Perinatology | 79.1 | 57.6 | 66.7 | 538 |
-| Pediatrics | 27.4 | 13.2 | 17.8 | 431 |
-| Rehabilitation | 50.0 | 9.4 | 15.8 | 64 |
-| Physical and rehabilitation medicine | 0.0 | 0.0 | 0.0 | 3 |
-| Community psychiatry | 33.3 | 3.0 | 5.6 | 33 |
-| Psychiatry | 33.3 | 8.1 | 13.0 | 37 |
-| Epidemiology | 38.5 | 13.8 | 20.3 | 253 |
-| Preventive medicine | 38.4 | 21.5 | 27.6 | 1824 |
-| Nuclear medicine | 75.0 | 42.3 | 54.1 | 142 |
-| Radiology | 49.3 | 17.5 | 25.8 | 200 |
-| Gynecology | 70.6 | 44.6 | 54.7 | 399 |
-| Reproductive medicine | 75.0 | 14.3 | 24.0 | 21 |
-| General surgery | 63.2 | 41.2 | 49.9 | 2547 |
-| Neurosurgery | 42.0 | 16.2 | 23.4 | 228 |
-| Obstetrics | 87.1 | 59.1 | 70.5 | 470 |
-| Ophthalmology | 88.8 | 56.6 | 69.1 | 673 |
-| Orthopedics | 52.3 | 17.2 | 25.8 | 134 |
-| Otolaryngology | 81.2 | 51.1 | 62.7 | 573 |
-| Surgery plastic | 53.8 | 16.1 | 24.8 | 87 |
-| Thoracic surgery | 67.4 | 37.1 | 47.9 | 407 |
-| Traumatology | 76.8 | 53.2 | 62.8 | 814 |
-| Urology | 86.8 | 74.1 | 79.9 | 1708 |
-| Specialties surgical | 0.0 | 0.0 | 0.0 | 5 |
-| Sports medicine | 90.9 | 34.5 | 50.0 | 29 |
-| Tropical medicine | 0.0 | 0.0 | 0.0 | 22 |
-| Venereology | 83.7 | 71.0 | 76.9 | 449 |
-| micro avg | 75.1 | 53.3 | 59.3 | 39293 |
-| macro avg | 56.3 | 33.4 | 40.0 | 39293 |
-| weighted avg | 72.6 | 56.3 | 62.9 | 39293 |
-
-
 ## Classifier:  DECISION TREE
 ### Word Representation: TFIDF
 
@@ -241,6 +180,67 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | micro avg | 63.3 | 39.0 | 48.2 | 39293 |
 | macro avg | 53.8 | 18.5 | 24.6 | 39293 |
 | weighted avg | 66.3 | 39.0 | 45.0 | 39293 |
+
+## Classifier:  MULTILAYER PERCEPTRON
+### Word Representation: TFIDF
+
+| Specialty | Precision (%) | Recall (%) | F1 (%) | # docs. |
+| --- | --- | --- | --- | --- |
+| Immunochemistry | 31.7 | 8.5 | 13.4 | 224 |
+| Allergy and immunology | 0.0 | 0.0 | 0.0 | 7 |
+| Anesthesiology | 34.6 | 25.3 | 29.2 | 178 |
+| Bariatric medicine | 83.3 | 26.3 | 40.0 | 19 |
+| Dermatology | 86.9 | 68.7 | 76.7 | 1776 |
+| Forensic medicine | 0.0 | 0.0 | 0.0 | 1 |
+| Family practice | 87.9 | 28.4 | 43.0 | 102 |
+| General practice | 0.0 | 0.0 | 0.0 | 1 |
+| Genetics medical | 78.6 | 65.6 | 71.5 | 1101 |
+| Geriatrics | 48.9 | 38.4 | 43.0 | 3223 |
+| Cardiology | 88.7 | 76.6 | 82.2 | 2817 |
+| Endocrinology | 88.2 | 66.4 | 75.8 | 1268 |
+| Gastroenterology | 86.7 | 75.7 | 80.8 | 1764 |
+| Hematology | 88.6 | 64.0 | 74.3 | 1109 |
+| Infectious disease medicine | 11.1 | 1.5 | 2.6 | 68 |
+| Medical oncology | 91.5 | 80.9 | 85.8 | 4035 |
+| Nephrology | 84.0 | 71.6 | 77.3 | 953 |
+| Pulmonary medicine | 15.4 | 3.2 | 5.3 | 125 |
+| Rheumatology | 83.7 | 47.5 | 60.6 | 238 |
+| Internal medicine | 24.4 | 9.0 | 13.2 | 643 |
+| Military medicine | 0.0 | 0.0 | 0.0 | 0 |
+| Neurology | 89.4 | 74.3 | 81.1 | 3156 |
+| Palliative medicine | 100.0 | 4.2 | 8.0 | 24 |
+| Pathology | 55.2 | 45.6 | 49.9 | 3836 |
+| Neonatology | 66.1 | 47.0 | 54.9 | 534 |
+| Perinatology | 79.1 | 57.6 | 66.7 | 538 |
+| Pediatrics | 27.4 | 13.2 | 17.8 | 431 |
+| Rehabilitation | 50.0 | 9.4 | 15.8 | 64 |
+| Physical and rehabilitation medicine | 0.0 | 0.0 | 0.0 | 3 |
+| Community psychiatry | 33.3 | 3.0 | 5.6 | 33 |
+| Psychiatry | 33.3 | 8.1 | 13.0 | 37 |
+| Epidemiology | 38.5 | 13.8 | 20.3 | 253 |
+| Preventive medicine | 38.4 | 21.5 | 27.6 | 1824 |
+| Nuclear medicine | 75.0 | 42.3 | 54.1 | 142 |
+| Radiology | 49.3 | 17.5 | 25.8 | 200 |
+| Gynecology | 70.6 | 44.6 | 54.7 | 399 |
+| Reproductive medicine | 75.0 | 14.3 | 24.0 | 21 |
+| General surgery | 63.2 | 41.2 | 49.9 | 2547 |
+| Neurosurgery | 42.0 | 16.2 | 23.4 | 228 |
+| Obstetrics | 87.1 | 59.1 | 70.5 | 470 |
+| Ophthalmology | 88.8 | 56.6 | 69.1 | 673 |
+| Orthopedics | 52.3 | 17.2 | 25.8 | 134 |
+| Otolaryngology | 81.2 | 51.1 | 62.7 | 573 |
+| Surgery plastic | 53.8 | 16.1 | 24.8 | 87 |
+| Thoracic surgery | 67.4 | 37.1 | 47.9 | 407 |
+| Traumatology | 76.8 | 53.2 | 62.8 | 814 |
+| Urology | 86.8 | 74.1 | 79.9 | 1708 |
+| Specialties surgical | 0.0 | 0.0 | 0.0 | 5 |
+| Sports medicine | 90.9 | 34.5 | 50.0 | 29 |
+| Tropical medicine | 0.0 | 0.0 | 0.0 | 22 |
+| Venereology | 83.7 | 71.0 | 76.9 | 449 |
+| micro avg | 75.1 | 53.3 | 59.3 | 39293 |
+| macro avg | 56.3 | 33.4 | 40.0 | 39293 |
+| weighted avg | 72.6 | 56.3 | 62.9 | 39293 |
+
 
 ## Classifier:  DECISION TREE
 ### Word Representation: TFIDF + SCOVACLIS
