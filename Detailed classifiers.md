@@ -1,4 +1,10 @@
-In order to clarify the results, we detail below the parameters used by each classification algorithm.
+In order to clarify the results, we detail below the libraries and parameters used.
+
+## Libraries
+- **Scikit-learn** (version 0.21.3): is a free software machine learning library for the Python programming language
+- **NLTK** (version 3.4): is a leading platform for building Python programs to work with human language data. 
+- **Pandas** (version 0.22.0): is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language. 
+- **SciPy** (version 1.4.1): is a free and open-source Python library used for scientific computing and technical computing. 
 
 ## Multilayer Perceptron
 
