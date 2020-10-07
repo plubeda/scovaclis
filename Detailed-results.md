@@ -726,7 +726,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 
 
 ## Classifier:  DECISION TREE
-### Word Representation: TFIDF + SCOVACLIS - STOPWORDS
+### Word Representation: TFIDF + SCOVACLIS - STOP NGRAMS
 
 | Specialty | Precision (%) | Recall (%) | F1 (%) | # docs. |
 | --- | --- | --- | --- | --- |
@@ -786,7 +786,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | weighted avg | 45.6 | 43.9 | 44.7 | 39293 |
 
 ## Classifier: RANDOM FOREST
-### Word Representation: TFIDF + SCOVACLIS - STOPWORDS
+### Word Representation: TFIDF + SCOVACLIS - STOP NGRAMS
 
 | Specialty | Precision (%) | Recall (%) | F1 (%) | # docs. |
 | --- | --- | --- | --- | --- |
@@ -846,7 +846,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | weighted avg | 73.4 | 18.9 | 28.1 | 39293 |
 
 ## Classifier:  KNEIGHBORS
-### Word Representation: TFIDF + SCOVACLIS - STOPWORDS
+### Word Representation: TFIDF + SCOVACLIS - STOP NGRAMS
 
 | Specialty | Precision (%) | Recall (%) | F1 (%) | # docs. |
 | --- | --- | --- | --- | --- |
@@ -906,7 +906,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | weighted avg | 66.9 | 42.7 | 49.9 | 39293 |
 
 ## Classifier:  MULTILAYER PERCEPTRON
-### Word Representation: TFIDF + SCOVACLIS - STOPWORDS
+### Word Representation: TFIDF + SCOVACLIS - STOP NGRAMS
 
 | Specialty | Precision (%) | Recall (%) | F1 (%) | # docs. |
 | --- | --- | --- | --- | --- |
@@ -966,7 +966,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | weighted avg | 72.2 | 57.7 | 63.6 | 39293 |
 
 ## Classifier:  DECISION TREE
-### Word Representation: SCOVACLIST - STOPWORDS
+### Word Representation: SCOVACLIST - STOP NGRAMS
 
 | Specialty | Precision (%) | Recall (%) | F1 (%) | # docs. |
 | --- | --- | --- | --- | --- |
@@ -1026,7 +1026,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | weighted avg | 43.3 | 43.1 | 43.2 | 39293 |
 
 ## Classifier:  RANDOM FOREST
-### Word Representation: SCOVACLIST - STOPWORDS
+### Word Representation: SCOVACLIST - STOP NGRAMS
 
 | Specialty | Precision (%) | Recall (%) | F1 (%) | # docs. |
 | --- | --- | --- | --- | --- |
@@ -1086,7 +1086,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | weighted avg | 67.0 | 32.6 | 41.5 | 39293 |
 
 ## Classifier:  KNEIGHBORS
-### Word Representation: SCOVACLIST - STOPWORDS
+### Word Representation: SCOVACLIST - STOP NGRAMS
 
 | Specialty | Precision (%) | Recall (%) | F1 (%) | # docs. |
 | --- | --- | --- | --- | --- |
@@ -1146,7 +1146,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | weighted avg | 65.4 | 42.3 | 50.1 | 39293 |
 
 ## Classifier:  MULTILAYER PERCEPTRON
-### Word Representation: SCOVACLIST - STOPWORDS
+### Word Representation: SCOVACLIST - STOP NGRAMS
 
 | Specialty | Precision (%) | Recall (%) | F1 (%) | # docs. |
 | --- | --- | --- | --- | --- |
