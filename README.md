@@ -29,7 +29,7 @@ Example of specialty geriatrics:
 - Local Precision Measure (LPM): a specialty-level measure that represents the capacity of a term to specifically characterise the specialty. Terms with high values in text of a given specialty are those that never or rarely occur in texts belonging to other specialties.
 - Term Global Measure (TGM): a corpus measure that quantifies the concentration of a term along all specialties.
 - Local Relevance Measure (LRM): It represents the capacity of a term to describe the specialty. Terms with high values are those with high frequency in the specialty, compared to other terms in the specialty, and compared to the frequency in other specialties.  
-- included_snomed:
+- included_snomed: True = the term is found in SNOMED-CT, False = the term is not found in SNOMED-CT
  
  
 #### 2. Binary-confusion-matrix file:
