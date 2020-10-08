@@ -962,7 +962,7 @@ To perform the experiments, we used 75% of the case reports for training 475 (41
 | Tropical medicine | 0.0 | 0.0 | 0.0 | 22 |
 | Venereology | 84.0 | 69.9 | 76.3 | 449 |
 | micro avg | 77.5 | 57.7 | 65.2 | 39293 |
-| macro avg | 56.3 | 35.3 | 41.8 | 39293 |
+| macro avg | 57.3 | 36.3 | 43.8 | 39293 |
 | weighted avg | 72.2 | 57.7 | 63.6 | 39293 |
 
 ## Classifier:  DECISION TREE
