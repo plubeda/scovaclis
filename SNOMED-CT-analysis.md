@@ -2,7 +2,7 @@
 
 We analyze the characteristics of the terms that were not found in SNOMED-CT to recognize possible noise terms in our vocabulary. The detailed results are 
 presented below and show that many of the SCOVACLIS terms with high value on the Et  measure are found in 
-SNOMED CT. A high Et means that the term was found in several specialties. 90% of the terms found between 38 and 52 specialties are included in SNOMED-CT. 
+SNOMED-CT. A high Et means that the term was found in several specialties. 90% of the terms found between 38 and 52 specialties are included in SNOMED-CT. 
 On the contrary, only 15% of the terms found between 1 and 13 specialties are included in SNOMED-CT. This corroborates that SNOMED-CT is a resource that, 
 in Spanish, emphasizes covering the terms that are generally used in the field, but does often lack coverage of very specific concepts of a specialty and 
 their synonyms. This seems interesting, because SCOVACLIS could be used for adding more content when an NLP task requires these specific and complementary 
@@ -10,7 +10,7 @@ terms. The manual analysis of the terms yields that some of the not found terms 
 *breast implant* in *Surgery plastic*), and  others are more specialized than the contained in SNOMED-CT (e.g. *toracoabdominal wall* in *Thoracic Specialty* 
 and  *kayakista* in *Sports Medicine*). Lastly, we found that specialties with a broad lexical nature, such as preventive medicine 
 and general practice, include apparently not-so-relevant terms. However, they are useful for improving classification performance, as illustrated in the 
-classification experiment.
+classification experiment in the paper.
 
 
 Hematology
