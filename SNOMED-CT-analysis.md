@@ -1,4 +1,4 @@
-### Analysis of terms in SNOMED-CT
+### Analysis of SCOVACLIST terms using SNOMED-CT
 
 We analyze the characteristics of the terms that were not found in SNOMED-CT to recognize possible noise terms in our vocabulary. The detailed results are 
 presented in GitHub and show that many of the SCOVACLIS terms with high value on the Et  measure are found in 
